@@ -1,0 +1,14 @@
+plugins:
+  - jekyll-relative-links
+  - jekyll-remote-theme
+remote_theme: pages-themes/dinky@v0.2.0
+title: IT3300
+description: DevOps virtualization
+show_downloads: false
+relative_links:
+  enabled: true
+  collections: true
+exclude:
+  - terraform
+  - scripts
+  - tests 
